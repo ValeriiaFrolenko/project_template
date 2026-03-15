@@ -4,6 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+numpy = "*"
+pandas = "==3.0.1"
+matplotlib = "*"
+pylint = "*"
+black = "*"
+pytest = "*"
 
 [dev-packages]
 
